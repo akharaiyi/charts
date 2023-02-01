@@ -969,7 +969,7 @@ applicationSet:
 server:
   ## @param server.replicaCount Number of Argo CD server replicas to deploy
   ##
-  replicaCount: 1
+  replicaCount: 3
   ## Configure extra options for Argo CD server containers' liveness and readiness probes
   ## ref: https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-probes/#configure-probes
   ## @param server.startupProbe.enabled Enable startupProbe on Argo CD server nodes
